@@ -13,3 +13,4 @@ The following scripts were used for RNAseq processing.
 
 RNAseq.pipeline.sh: This shell script is used to process raw RNAseq reads
 RNAseq.R: This shell script is used to calculate TPMs for each gene in each sample using the output from "RNAseq.pipeline.sh"
+RNAseq.QC.py: This script parses QC from the output of "RNAseq.pipeline.sh", to determine which lines fail the minimum 70% aligned reads. 
