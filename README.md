@@ -19,3 +19,7 @@ RNAseq.QC.py: This script parses QC from the output of "RNAseq.pipeline.sh", to 
 The following scripts were used for PhytroExpr processing.
 
 PhytoExpr.scores.R: This script is used to process predictions in the file bdi.newexppred.sequences.csv and outputs scores.tsv, which contains the scores for each variant, calculated as the score of the alt variant subtracted by the score of the ref variant. Additionally the file scores.ref.alt.tsv is output which contains the ref and alt variant scores by themselves.
+
+The following scripts were used for PhytroExpr processing.
+
+PhytoExpr.scores.R: This script is used to process predictions in the file bdi.newexppred.sequences.csv and outputs scores.tsv, which contains the scores for each variant, calculated as the score of the alt variant subtracted by the score of the ref variant. Additionally the file scores.ref.alt.tsv is output which contains the ref and alt variant scores by themselves.
