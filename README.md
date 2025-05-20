@@ -23,3 +23,7 @@ PhytoExpr.scores.R: This script is used to process predictions in the file bdi.n
 The following scripts were used for PhytroExpr processing.
 
 PhytoExpr.scores.R: This script is used to process predictions in the file bdi.newexppred.sequences.csv and outputs scores.tsv, which contains the scores for each variant, calculated as the score of the alt variant subtracted by the score of the ref variant. Additionally the file scores.ref.alt.tsv is output which contains the ref and alt variant scores by themselves.
+
+The following script was used for generating REF and ALT a2z scores for BD21.3 variants.
+
+a2z.ocr.py: Uses provided model (model-accessibility-full.h5) to generate a2z scores for REF and ALT alleles of all variants in provided .bim file (snps.combined.bim). Sequences are obtained from provided fasta file (BdistachyonBd21_3_537_v1.0.fa) to obtain sequences
