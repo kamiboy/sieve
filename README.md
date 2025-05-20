@@ -26,4 +26,4 @@ PhytoExpr.scores.R: This script is used to process predictions in the file bdi.n
 
 The following script was used for generating REF and ALT a2z scores for BD21.3 variants.
 
-a2z.ocr.py: Uses provided model (model-accessibility-full.h5) to generate a2z scores for REF and ALT alleles of all variants in provided .bim file (snps.combined.bim). Sequences are obtained from provided fasta file (BdistachyonBd21_3_537_v1.0.fa) to obtain sequences
+a2z.ocr.py: Uses provided model (model-accessibility-full.h5) to generate a2z scores for REF and ALT alleles of all variants in provided .bim file (snps.combined.bim). Sequences are obtained from provided fasta file (BdistachyonBd21_3_537_v1.0.fa) to obtain sequences. It uses functions from a2z source, which is expected to be located in the folder (a2z). A zip containing the files is present in this github (a2z.zip) .
