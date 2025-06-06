@@ -83,7 +83,7 @@ def ProcessSequences(datafile, h5file, model, max_sequences = None):
         begining = False
 
     if counter > 0:
-        extract_a2z_embeddings(model, sequences, genes, transcripts, groups, hashes, features, chunks, chunk_size, outdir+out_file)
+        extract_a2z_embeddings(model, sequences, genes, transcripts, groups, hashes, features, chunks, chunk_size, h5)
         exported += counter
 
     h5file.close()
