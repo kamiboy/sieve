@@ -42,3 +42,27 @@ make.wp2.dataset.py: This script reads predictions made using Caduceus, a2z embe
 peer.sh: Thus script is used to generate PEER factors for RNAseq reads. It requires the file peer.expression.csv which is output from the script (make.wp2.dataset.py) and it generates folders for peer factors 1 to 15, which are used for the final analysis by (wp2.analysis.R). The requires the tool PEER to be present in the bin folder.
 
 wp2.analysis.R: This script does the final analysis of the predicted versus measured TPM values for each gene in BD21.3
+
+1. RNAseq processing sequence:
+	a. RNAseq.pipeline.sh
+	b. RNAseq.QC.py
+	c. RNAseq.R
+
+2. Embedding processing for training:
+
+	a. prepare.sequences.py
+	b. sequence2embedding.a2z.py
+	c. sequence2embedding.caduceus.py
+
+2. Embedding processing for prediction:
+
+	a. make.bd.data.py
+	b. make.bd.sequences.py
+	c. make.bd.embedding.a2z.py
+	d. make.bd.embedding.caduceus.py
+	e. generate_predictions_hd5.py
+
+3. Analysis:
+	a. make.wp2.dataset.py
+  b. peer.sh
+  c. wp2.analysis.R
