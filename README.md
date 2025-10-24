@@ -65,13 +65,15 @@ wp2.analysis.R: This script does the final analysis of the predicted versus meas
 
 	(a) make.bd.data.py
 
-	(b) make.bd.sequences.py
+	(b) make.bdi.data.py
 
-	(c) make.bd.embedding.a2z.py
+	(c) make.bd.sequences.py
 
-	(d) make.bd.embedding.caduceus.py
+	(d) make.bd.embedding.a2z.py
 
-	(e) generate_predictions_hd5.py
+	(e) make.bd.embedding.caduceus.py
+
+	(f) generate_predictions_hd5.py
 
 4. Analysis:
    
